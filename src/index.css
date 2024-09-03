@@ -1,0 +1,27 @@
+.chat-window {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #f8f9fa; /* Fondo claro para la ventana de chat */
+  padding: 20px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #e1ffc7; /* Color para mensajes del usuario */
+  text-align: right; /* Alinear a la derecha */
+}
+
+.bot {
+  background-color: #cfe2ff; /* Color para mensajes del bot */
+  text-align: left; /* Alinear a la izquierda */
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 10px;
+}
